@@ -1,0 +1,39 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"baseUrl": "./",
+		"outDir": "../dist",
+		"lib": [
+			"es5",
+			"es6",
+			"es7",
+			"es2015",
+			"es2016",
+			"es2017",
+			"esnext",
+			"dom"
+		],
+		"target": "esnext",
+		"module": "commonjs",
+		"inlineSourceMap": true,
+		"inlineSources": false,
+		"stripInternal": true,
+		"strictNullChecks": false,
+		"preserveConstEnums": true,
+		"emitDecoratorMetadata": true,
+		"noImplicitThis": true,
+		"noImplicitAny": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUnusedLocals": true,
+		"noEmitOnError": true,
+		"forceConsistentCasingInFileNames": true,
+		"alwaysStrict": true,
+		"declaration": true,
+		"locale": "zh-CN",
+		"preserveSymlinks": true,
+		"experimentalDecorators": true,
+		"types": [
+			"node"
+		]
+	}
+}

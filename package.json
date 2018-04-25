@@ -1,0 +1,36 @@
+{
+	"name": "@gongt/silly-con",
+	"version": "0.0.1",
+	"description": "a very sb 3rd party connect package",
+	"main": "dist/index.js",
+	"scripts": {
+		"start": "bash ./scripts/start.sh",
+		"prepublishOnly": "bash ./scripts/prepublish.sh",
+		"test": "./scripts/test.sh"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/GongT/sillyCon.git"
+	},
+	"keywords": [
+		"library"
+	],
+	"engines": {
+		"node": ">=8",
+		"npm": ">4"
+	},
+	"author": "GongT <gongteng524702837@gmail.com>",
+	"license": "MIT",
+	"homepage": "https://github.com/GongT/sillyCon#readme",
+	"devDependencies": {
+		"@types/node": "^9.6.5",
+		"typescript": "^2.8.1"
+	},
+	"dependencies": {
+		"@gongt/silly-b": ">=0.0.3",
+		"@gongt/silly-node": ">=0.0.2",
+		"@types/mongoose": "^5.0.10",
+		"@types/redis": "^2.8.6",
+		"@types/redlock": "^3.0.1"
+	}
+}
